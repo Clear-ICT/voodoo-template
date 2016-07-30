@@ -3,7 +3,7 @@ voodoo:
   shared_odoo: 'odoo8'
   used_odoo_repo: 'oca'
 odoo:
-  image: akretion/voodoo
+  image: Clear-ICT/voodoo
   environment:
     - POSTGRESQL_DATA=/workspace/.db
     - POSTGRESQL_DB=db
